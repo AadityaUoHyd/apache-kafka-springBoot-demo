@@ -2,7 +2,7 @@
 
 Apache Kafka is a distributed streaming platform, used to process real time data feeds with high throughput and low latency. Here we are doing basic demo program 
 of producer-consumer with apache-kafka and spring-boot. The other test cases where such codes can be applied in real time are:
-e.g : flights data, sensors data, stocks data, news data etc....
+e.g: flights data, sensors data, stocks data, news data etc....
 
 Kafka works based on Publisher and Subscriber model
 
@@ -86,7 +86,7 @@ Step-10: Test application using PostMan.
 
 
 Sample Data
-------------
+-----------
 
 [
 
