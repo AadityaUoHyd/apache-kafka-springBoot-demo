@@ -88,12 +88,6 @@ Step-10: Test application using PostMan.
 Sample Data
 ------------
 
-{
-"customerId":101,
-"customerName":"jai",
-"customerEmail":"jai@gmail.com"
-}
----------------------------------
 [
 
 {
