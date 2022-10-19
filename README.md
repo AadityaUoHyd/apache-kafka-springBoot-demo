@@ -4,7 +4,8 @@ Apache Kafka is a distributed streaming platform, used to process real time data
 of producer-consumer with apache-kafka and spring-boot. The other test cases where such codes can be applied in real time are:
 e.g: flights data, sensors data, stocks data, news data etc....
 
-Kafka works based on Publisher and Subscriber model
+Kafka works based on Publisher and Subscriber model :
+![](https://github.com/AadityaUoHyd/apache-kafka-springBoot-demo/blob/master/kafka-pic.jpg)
 
 Kafka Terminology
 -----------------
@@ -90,21 +91,22 @@ Sample Data
 
 [
 
-{
-"customerId":101,
-"customerName":"Aadi",
-"customerEmail":"aadi@outlook.com"
-},
+  {
+   "customerId":101,
+   "customerName":"Aadi",
+   "customerEmail":"aadi@outlook.com"
+  },
 
-{
-"customerId":102,
-"customerName":"Shekhar",
-"customerEmail":"shekhar@gmail.com"
-},
-{
-"customerId":102,
-"customerName":"Santosh",
-"customerEmail":"santosh@hotmail.com"
-}
+  {
+   "customerId":102,
+   "customerName":"Shekhar",
+   "customerEmail":"shekhar@gmail.com"
+  },
+
+  {
+   "customerId":102,
+   "customerName":"Santosh",
+   "customerEmail":"santosh@hotmail.com"
+  }
 
 ]
