@@ -54,12 +54,12 @@ Note: server.properties file will be available in config folder (Copied to windo
 Step-6 : Create Kakfa Topic using below command from kafka/bin/windows folder
 
 Command : (use this for kafka newer version above 2.2+) #cmd > kafka-topics.bat --create --topic demo-sbms-topic --bootstrap-server localhost:9092 --replication-factor 1 --partitions 1
-          (use this for kafka older version below 2.2) #cmd > kafka-topics.bat --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic demo-sbms-topic
+          <br><br> (use this for kafka older version below 2.2) #cmd > kafka-topics.bat --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic demo-sbms-topic
           
 
 Step-7 : View created Topics using below command
 
-      Command : kafka-topics.bat --list --zookeeper localhost:2181
+      Command : kafka-topics.bat --bootstrap-server localhost:9092 --list
 
 Step-8 : Create Spring Boot Project in IDE
 ===========================================
